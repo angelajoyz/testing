@@ -180,7 +180,7 @@ const Dashboard = ({ onNavigate, onLogout }) => {
             <strong>No prediction data yet.</strong>{' '}
             Upload a dataset and run predictions to populate this dashboard.{' '}
             <Typography component="span" onClick={() => onNavigate?.('dataimport')}
-              sx={{ fontSize: 18, fontWeight: 700, cursor: 'pointer', color: T.blue, '&:hover': { opacity: 0.75 } }}>
+              sx={{ fontSize: 13, fontWeight: 600, cursor: 'pointer', color: T.blue, '&:hover': { opacity: 0.75 } }}>
               Go to Data Import.
             </Typography>
           </Alert>
