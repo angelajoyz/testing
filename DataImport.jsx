@@ -15,7 +15,7 @@ import {
   InfoOutlined as InfoOutlinedIcon,
 } from '@mui/icons-material';
 import Sidebar, { T } from './Sidebar';
-import { getBarangays } from './services/api';
+import { getBarangays } from './api.js';
 
 // ── Shared sub-components ──────────────────────────────────────────────────────
 const SCard = ({ children, sx = {} }) => (
@@ -265,5 +265,6 @@ const DataImport = ({ onNavigate, onLogout, onDataUploaded }) => {
     </Box>
   );
 };
+
 
 export default DataImport;
