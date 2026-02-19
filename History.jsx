@@ -208,8 +208,8 @@ const History = ({ onNavigate, onLogout }) => {
             <strong>No forecast history available.</strong>{' '}
             Generate predictions from the{' '}
             <Typography component="span" onClick={() => onNavigate?.('prediction')}
-              sx={{ fontWeight: 600, cursor: 'pointer', color: T.blue, '&:hover': { opacity: 0.75 } }}>
-              Prediction →
+              sx={{ fontSize: 13, fontWeight: 600, cursor: 'pointer', color: T.blue, '&:hover': { opacity: 0.75 } }}>
+              Prediction 
             </Typography>{' '}
             page to view historical data here.
           </Alert>
