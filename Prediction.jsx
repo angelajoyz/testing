@@ -1,4 +1,4 @@
-import { getForecast } from './services/api';
+import { getForecast } from './api.js';
 import React, { useState, useEffect, useRef } from 'react';
 import {
   Box, Typography, Card, CardContent, Button,
@@ -725,5 +725,6 @@ const Prediction = ({ onNavigate, onLogout, uploadedFile, uploadedData }) => {
     </Box>
   );
 };
+
 
 export default Prediction;
